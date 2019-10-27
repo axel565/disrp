@@ -26,4 +26,4 @@ while True:
             }
         }
     rpc_obj.set_activity(activity)
-    time.sleep(30000)
+    

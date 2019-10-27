@@ -3,8 +3,10 @@ import time
 import os
 
 print("Demo for python-discord-rpc")
-client_id = os.getenv('CID') #Your application's client ID as a string. (This isn't a real client ID)
-rpc_obj = rpc.DiscordIpcClient.for_platform(client_id) #Send the client ID to the rpc module
+
+client_id = os.getenv('CID')
+rpc_obj = rpc.DiscordIpcClient.for_platform(client_id) 
+
 print("RPC connection successful.")
 
 time.sleep(5)

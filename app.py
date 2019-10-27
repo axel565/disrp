@@ -1,5 +1,6 @@
 import rpc
 import time
+import os
 
 print("Demo for python-discord-rpc")
 client_id = os.getenv('CID') #Your application's client ID as a string. (This isn't a real client ID)
